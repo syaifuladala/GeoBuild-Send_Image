@@ -1,0 +1,40 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+  color: white;
+}
+
+.main h1 {
+  font-weight: 100;
+}
+
+.main h1 span {
+  font-weight: 500;
+  color: #6699CC;
+}
+
+.main p {
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+.main button {
+  background-color: #FF4887;
+  color: white;
+  margin-top: 20px;
+}
+
+.card-body {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-img {
+  position: absolute;
+  top: -70px;
+  right: -20px;
+  width: 45%;
+}
