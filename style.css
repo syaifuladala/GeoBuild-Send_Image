@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  padding-bottom: 50px;
 }
 
 .main {
@@ -21,20 +22,80 @@ body {
   margin-top: 20px;
 }
 
+/* button proyeksi */
 .main button {
   background-color: #FF4887;
   color: white;
   margin-top: 20px;
 }
 
+/* card view */
 .card-body {
   position: relative;
   overflow: hidden;
 }
 
+/* gambar */
 .bg-img {
   position: absolute;
   top: -70px;
   right: -20px;
   width: 45%;
+}
+
+/* form angka latitude dan longitude */
+.formMap{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/* bagian bencana */
+.bencana{
+  color: white;
+}
+
+/* kolom koran
+.column-bencana {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+} */
+
+/* kolom bencana */
+.tabel-bencana{
+  width: 100%;
+  color: white;
+  margin-bottom: 50px;
+}
+
+/* skala bencana */
+.skala-bar {
+	position: relative;
+	width: 100%;
+	height: 3em;
+	background-color: white;
+	border-radius: 1.5em;
+	color: black;
+}
+
+.skala-bar::before {
+	content: attr(data-label);
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: .5em;
+	top: .5em;
+	bottom: .5em;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 2rem;
+	max-width: calc(100% - 1em);
+	background-color: #6699CC;
+	border-radius: 1em;
+	padding: 1em;
+}
+
+/* form keterangan bencana */
+.form-control{
+  width: 100%;
+  height: 100px;
 }
