@@ -11,14 +11,14 @@
 ?>
                 <script>
                     alert("Proyeksi Terkirim!");
-                    window.location = "index.php";
+                    window.location = "GeoBuildApp.php?persen_banjir=0&persen_gempa=0&persen_tsunami=0";
                 </script>
 <?php
             } else {
 ?>
                 <script>
                     alert("Format Gambar Harus .png !");
-                    window.location = "index.php";
+                    window.location = "GeoBuildApp.php?persen_banjir=0&persen_gempa=0&persen_tsunami=0";
                 </script>
 <?php
             }
@@ -26,7 +26,7 @@
 ?>
             <script>
                 alert("Gagal! Silahkan Coba Lagi");
-                window.location = "index.php";
+                window.location = "GeoBuildApp.php?persen_banjir=0&persen_gempa=0&persen_tsunami=0";
             </script>
 <?php
         }
